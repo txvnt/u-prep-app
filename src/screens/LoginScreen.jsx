@@ -27,7 +27,7 @@ const LoginScreen = props => {
   }
 
   return (
-    <View style={[containers.container, containers.centeredContent]}>
+    <View style={[containers.container, containers.centeredContent, { paddingHorizontal: 20}]}>
       <Text style={typography.h1}>Login to U Prep</Text>
       <View style={margin.three} />
       <Input
